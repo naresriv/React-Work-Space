@@ -1,0 +1,5 @@
+const validEmailRegex = /\w+([-+.']\w+)*@\w+([-.]\w+)*\.(com|org)([-.]\w+)*/;
+
+function isValidEmail(email) {
+  return validEmailRegex.test(email);
+}
